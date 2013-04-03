@@ -127,7 +127,6 @@ implements SerialPortEventListener{
         this.inputBuffer = null;
         this.sendPaused = false;
         this.commandBuffer = null;
-        this.activeStringList = null;
         
         this.commPort.close();
 
